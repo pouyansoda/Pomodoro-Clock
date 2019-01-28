@@ -1,0 +1,66 @@
+body{
+  background-color: cadetblue;
+  color: white;
+  font-family: 'Josefin Slab';
+  background-image: url("forest.jpeg");
+}
+.text-main{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 400;
+
+}
+.settings{
+  width: 60%;
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+.settings p,span{
+  text-align: center;
+  font-size:30px;
+}
+.settings button{
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: none;
+  color: salmon;
+}
+.settings button:hover{
+  color: #aef;
+}
+.clock{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border: 3px solid salmon;
+  border-radius: 50%;
+  text-align: center;
+padding-top: 70px;
+}
+.clock:hover{
+  border-color: #aef;
+}
+.time-display{
+  font-size: 80px;
+  margin-top: 70px;
+  display: inline;
+}
+
+.controls button{
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid salmon;
+  outline: none;
+  background: none;
+  border-radius: 5px;
+}
+
+.controls button:hover{
+  background-color: #aef;
+}

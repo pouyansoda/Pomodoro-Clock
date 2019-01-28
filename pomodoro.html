@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="js.js" type="text/javascript">
+  <script language="JavaScript" type="text/javascript" src="js.js"></script>
+  <title>Pomodoro Timer</title>
+</head>
+<body>
+  <audio id="buzzer" src="http://codingtutorials360.com/14244764.mp3" type="audio/mpeg">
+
+	</audio>
+  <div class="container">
+    <h1 class="text-main">Pomodoro Timer</h1>
+    <div class="settings row text-center">
+        <div class="col-md-6 col-sm-6 col-lg-6">
+            <p>
+                Break Time
+                <br>
+                <button  id="breakSub">-</button>
+                <span  id="breakTime">5</span>
+                <button id="breakAdd">+</button>
+            </p>
+        </div>
+        <div class="col-md-6 col-sm-6 col-lg-6">
+            <p>
+                Session Time
+                <br>
+                <button id="totSub">-</button>
+                <span id="totTime">25</span>
+                <button id="totAdd">+</button>
+            </p>
+        </div>
+    </div>
+
+    <div class="clock timer">
+          <div id="loading"></div>
+      <p id="clock-minute" class="time-display">25</p>
+      <p class="time-display" id="clock-dot"> :</p>
+      <p class="time-display" id="clock-second">00</p>
+
+    </div>
+    <div class="controls text-center">
+        <!-- <button  id="stop">Stop</button> -->
+        <button  id="start">Start</button>
+        <button  id="reset">Reset</button>
+    </div>
+    <audio id="notify">
+
+    </audio>
+  </div>
+
+</body>
+</html>
