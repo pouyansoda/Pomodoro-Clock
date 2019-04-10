@@ -1,3 +1,3 @@
 # Pomodoro-Clock
-This is my first project for the guide level of Restart Network. It was a good start for diving into Javascript. 
+Pomodoro Clock made with pure Javascript. Second project for Restart Network's Guide Levels. 
 https://pomodoro-clock-ps.herokuapp.com
